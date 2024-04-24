@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
@@ -11,7 +11,7 @@ public class UIReturnToMainMenu : MonoBehaviour
 
     public void Awake()
     {
-       
+
         //returnMenu.SetActive(false);
     }
 
