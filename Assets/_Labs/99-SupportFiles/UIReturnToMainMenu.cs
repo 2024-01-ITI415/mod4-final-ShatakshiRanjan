@@ -20,14 +20,18 @@ public class UIReturnToMainMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
+    public void GoToGame()
+    {
+        SceneManager.LoadScene("Scene1");
+    }
+
 
     // Update is called once per frame
     public void Update()
     {
         if ((Input.GetKeyDown(KeyCode.Mouse0)))
         {
-            returnMenu.SetActive(false);
-            //fpsController.SetActive(!fpsController.activeSelf);
+            GoToGame();
 
         }
         if ((Input.GetKeyDown(KeyCode.Escape)))
