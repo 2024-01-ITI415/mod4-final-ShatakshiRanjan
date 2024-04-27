@@ -461,10 +461,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_NormalColor: {r: 0.061412677, g: 0.6037736, b: 0.03702387, a: 1}
+    m_HighlightedColor: {r: 0.049127813, g: 0.4528302, b: 0.061813872, a: 1}
+    m_PressedColor: {r: 0.023139918, g: 0.3773585, b: 0.0416902, a: 1}
+    m_SelectedColor: {r: 0.023529412, g: 0.3764706, b: 0.043137256, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -620,8 +620,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202406172}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 429.5, y: -275.8129, z: -782.77325}
+  m_LocalRotation: {x: -0.057576764, y: -0.1740243, z: 0.010157653, w: -0.9830042}
+  m_LocalPosition: {x: 182.27689, y: -141.17387, z: -676.3478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1549,10 +1549,10 @@ WindZone:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 660257311}
   m_Enabled: 1
-  m_Mode: 0
+  m_Mode: 1
   m_Radius: 20
   m_WindMain: 1
-  m_WindTurbulence: 1
+  m_WindTurbulence: 0.5
   m_WindPulseMagnitude: 0.5
   m_WindPulseFrequency: 0.01
 --- !u!4 &660257313
@@ -2600,7 +2600,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3323,8 +3323,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
