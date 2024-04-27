@@ -15,6 +15,15 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(name);
     }
-
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        // Check if the entering collider has the tag "Player"
+        if (other.CompareTag("Player"))
+        {
+            // Load scene2
+            SceneManager.LoadScene("Scene2");
+        }
+    }
 
 }
