@@ -620,8 +620,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202406172}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.057576764, y: -0.1740243, z: 0.010157653, w: -0.9830042}
-  m_LocalPosition: {x: 182.27689, y: -141.17387, z: -676.3478}
+  m_LocalRotation: {x: -0.28608808, y: 0.67357165, z: 0.32042435, w: 0.6014842}
+  m_LocalPosition: {x: -91.06882, y: -148.66043, z: 85.79163}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1519,52 +1519,6 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.31550425, y: 0.58715034, z: 0.26601624, w: 0.69638133}
   m_LocalPosition: {x: 39.4039, y: -77.25997, z: 74.67214}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &660257311
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 660257313}
-  - component: {fileID: 660257312}
-  m_Layer: 0
-  m_Name: WindZone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!182 &660257312
-WindZone:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660257311}
-  m_Enabled: 1
-  m_Mode: 1
-  m_Radius: 20
-  m_WindMain: 1
-  m_WindTurbulence: 0.5
-  m_WindPulseMagnitude: 0.5
-  m_WindPulseFrequency: 0.01
---- !u!4 &660257313
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660257311}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.2, y: -32.3, z: 26.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4096,7 +4050,6 @@ SceneRoots:
   - {fileID: 945053741}
   - {fileID: 202406175}
   - {fileID: 949790414}
-  - {fileID: 660257313}
   - {fileID: 861151001}
   - {fileID: 806271860}
   - {fileID: 1780732328}
