@@ -5,6 +5,7 @@ public class TimerUntilCollision : MonoBehaviour
 {
     public TMP_Text timerText; // Change to TMP_Text for TextMeshPro
     public TMP_Text winText;
+    public GameObject winBlock;
     private float startTime;
     private bool isRunning = true;
 
@@ -13,6 +14,7 @@ public class TimerUntilCollision : MonoBehaviour
         // Start the timer
         startTime = Time.time;
         winText.gameObject.SetActive(false);
+        winBlock.gameObject.SetActive(false);
     }
 
     void Update()
@@ -41,6 +43,7 @@ public class TimerUntilCollision : MonoBehaviour
             isRunning = false;
             winText.gameObject.SetActive(true);
             winText.text = "You found the treasure!";
+            winBlock.gameObject.SetActive(true);
 
         }
     }
